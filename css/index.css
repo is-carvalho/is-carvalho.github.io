@@ -1,0 +1,344 @@
+html, body{
+    width: 100vw;
+    margin: 0;
+    width: 100vw;
+    font-size: 16px;
+}
+
+.main-header{
+    top: 0;
+    background-color: rgba(3, 3, 3, 0.5);
+    width: 100%;
+    height: 11%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+
+}
+.main-nav{
+    margin-left: 10%;
+}
+
+.main-nav ul{
+    display: flex;
+    list-style: none;
+}
+
+.list-menu li{
+    margin: 2vw;
+    font-size: 1vw;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+.info-gerais{
+    margin-right: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 16%;
+}
+
+#info-gerais__login{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    margin-right: 10%;
+}
+
+#info-gerais__login span{
+    font-size: 1.1vw;
+    min-width: max-content;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+ li a:hover{
+    color: rgb(255, 255, 255);
+}
+
+.account-icon{
+    width: 1.7vw;
+    background-color: rgba(255, 255, 255);
+    border-radius: 50%;
+}
+
+.twitter-icon, .instagram-icon{
+    width: 1.7vw;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255);
+}
+
+.parallax-01 {
+    /* The image used */
+    width: 100vw;
+    display: flex;
+    background-image: url("../images/hero-food.jpg");
+    margin-top: 0;
+    /* Set a specific height */
+    min-height: 700px;
+
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.main-title{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-family: 'ELEGANT', sans-serif;
+}
+.main-title h1{
+    display: inline-block;
+    align-self: center;
+    font-size: 5vw;
+}
+.main-title p{
+    width: fit-content;
+    font-size: 1.5vw;
+}
+#main-order{
+    color:#ccc;
+    border-bottom: solid 1px;
+    font-size: 1.6vw;
+    text-transform: uppercase;
+}
+
+#main-order a:hover{
+    color: rgb(255, 255, 255);
+}
+
+.sobre{
+    display: flex;
+    color: rgb(59, 55, 55);
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100vw;
+    height: 72vh;
+    padding: 8% 0;
+    border: solid green 2px;
+
+}
+
+.sobre__picture-boss{
+    width: 30%;
+    height: 100%;
+}
+
+.sobre__header{
+    color: rgba(3, 3, 3, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sobre__header h2{
+    font-size: 2.6vw;
+    margin-bottom: 0.5rem;
+    font-family: 'ELEGANT', sans-serif;
+
+}
+
+.sobre__header span{
+    text-transform: uppercase;
+    font-size: 1vw;
+    margin-top: 0;
+    font-family: sans-serif;
+}
+
+.decorative-line {
+    margin-top: 0.5rem;
+    bottom: 0;
+    left: 50%; /* Adjust the position as needed */
+    width: 40%; /* Adjust the width of the line as needed */
+    border-bottom: 1px solid rgba(3, 3, 3, 0.5); /* You can change the color and thickness of the line */
+}
+.content-portion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40vw;
+    height: 60vh;
+    padding-top: 2vh;
+}
+.content-portion p{
+    text-align: center;
+    letter-spacing: 0.12rem;
+    line-height: 1.5;
+    font-size: 1.2vw;
+    height: auto;
+}
+
+.parallax-02 {
+    background-image: url("../images/paralax-food_02.jpg");
+    margin-top: 0;
+    min-height: 670px; 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.food-grid{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 35vw;
+    height: 90vh;
+}
+
+.food-grid__food{
+    width: 17vw;
+    height: 32vh;
+    margin-bottom: 10%;
+}
+
+.parallax-03{
+    background-image: url("../images/paralax-food_03.jpg");
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    /* Set a specific height */
+    min-height: 670px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#parallax-03__frase{
+    display: flex;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+}
+
+#parallax-03__frase span{
+    font-size: 4vw;
+    font-family: 'Margareta', sans-serif;
+    font-weight: bold;
+}
+
+#parallax-03__frase p{
+    font-size: 1.5vw;
+    font-family: 'Elegant', sans-serif;
+}
+
+.container-mirror{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container__mirror-picture{
+    width: 17vw;
+    height: 85vh;
+    margin-left: 1.5vw;
+}
+
+.contato-section{
+    background-color: rgba(226, 225,222, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: space-around;
+    height: 58vh;
+}
+
+.contato-section__form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+}
+
+.contato-section__form p{
+    color: rgb(107, 107, 107);
+    text-align: center;
+    letter-spacing: 0.1rem;
+    line-height: 1.5;
+    font-size: 1vw;
+}
+.form-contado{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+#form-contado__container{
+    display: flex;
+}
+
+.form-contado__inputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 0.8vw;
+}
+
+.form-contado__inputs input{
+    height: 4vh;
+    width: 20vw;
+    font-size: 1vw;
+    padding-left: 1.5vw;
+    border: transparent
+}
+
+.form-contado__inputs input:hover{
+    border: solid 1px rgb(107, 107, 107);
+}
+
+.form__texarea textarea{
+    border: transparent;
+    width: 22vw;
+    height: 17vh;
+}
+
+.form__texarea textarea:hover{
+    border: solid 1px rgb(107, 107, 107);
+}
+
+.form-contado__btn{
+    background-color: #696969;
+    border: transparent;
+    color:white;
+    font-size: 1vw;
+    margin-top: 0.3vh;
+    width: 8.5vw;
+    height: 4.3vh;
+}
+
+.form-contado__btn:hover{
+    background-color: rgb(148, 147, 147);
+}
+
+.home_footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(117, 111,99, 1);
+    width: 100vw;
+    height: 4vw;
+    margin-bottom: 0;
+    color: white;
+}
+
+.home_footer span{
+    font-size: 1.18vw;
+}
