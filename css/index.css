@@ -245,6 +245,7 @@ a{
     justify-content: space-between;
     width: 36vw;
     height: 85vh;
+    margin: 1vh 0;
     overflow: hidden;
 }
 
