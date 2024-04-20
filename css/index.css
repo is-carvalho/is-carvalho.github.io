@@ -243,6 +243,9 @@ a{
 .container-mirror{
     display: flex;
     justify-content: space-between;
+    width: 36vw;
+    height: 85vh;
+    overflow: hidden;
 }
 
 .container__mirror-picture{
