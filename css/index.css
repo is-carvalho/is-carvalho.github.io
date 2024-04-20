@@ -244,14 +244,13 @@ a{
     display: flex;
     justify-content: space-between;
     width: 36vw;
-    height: 85vh;
-    margin: 1vh 0;
+    height: 100%;
     overflow: hidden;
 }
 
 .container__mirror-picture{
     width: 17vw;
-    height: 85vh;
+    height: 100%;
     margin-left: 1.5vw;
 }
 
